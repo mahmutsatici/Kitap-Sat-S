@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Beyaz Sayfa Kitabevi</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="eCommerce HTML Template Free Download" name="keywords" />
+    <meta content="eCommerce HTML Template Free Download" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/icon2.png" rel="icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Libraries -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="lib/slick/slick.css" rel="stylesheet" />
+    <link href="lib/slick/slick-theme.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Nav Bar Start -->
+    <div class="nav">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+          <a href="#" class="navbar-brand">MENU</a>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navbarCollapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-between"
+            id="navbarCollapse"
+          >
+            <div class="navbar-nav mr-auto">
+              <a href="index.html" class="nav-item nav-link">ANASAYFA</a>
+              <div class="nav-item dropdown">
+                <a
+                  href="product-list.html"
+                  class="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  >ÜRÜNLER</a
+                >
+                <div class="dropdown-menu">
+                  <a href="product-list.html" class="dropdown-item"
+                    >TÜM KİTAPLAR</a
+                  >
+                  <a href="product-list.html#klasik" class="dropdown-item"
+                    >KLASİK EDEBİYAT</a
+                  >
+                  <a href="product-list.html#bilim-kurgu" class="dropdown-item"
+                    >BİLİM KURGU</a
+                  >
+                  <a href="product-list.html#tarih" class="dropdown-item"
+                    >TARİH ROMANLARI</a
+                  >
+                  <a href="product-list.html#fantastik" class="dropdown-item"
+                    >FANTASTİK ROMANLAR</a
+                  >
+                  <a href="product-list.html#cocuk" class="dropdown-item"
+                    >ÇOCUK KİTAPLARI</a
+                  >
+                  <a href="product-list.html#romantik" class="dropdown-item"
+                    >ROMANTİK ROMANLAR</a
+                  >
+                </div>
+              </div>
+              <a href="kampanya.html" class="nav-item nav-link">KAMPANYALAR</a>
+              <a href="birimlerimiz.html" class="nav-item nav-link"
+                >MİSYON ve VİZYON</a
+              >
+
+              <div class="nav-item dropdown">
+                <a
+                  href="birimlerimiz.html"
+                  class="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  >BİRİMLERİMİZ</a
+                >
+                <div class="dropdown-menu">
+                  <a href="birimlerimiz.html" class="dropdown-item"
+                    >SATIŞ VE MÜŞTERİ HİZMETLERİ</a
+                  >
+                  <a href="birimlerimiz.html" class="dropdown-item"
+                    >DEPOLAMA VE LOJİSTİK</a
+                  >
+                  <a href="birimlerimiz.html" class="dropdown-item"
+                    >EDİTÖRYAL EKİP</a
+                  >
+                </div>
+              </div>
+              <a href="contact.html" class="nav-item nav-link">İLETİŞİM</a>
+              <a href="birimlerimiz.html" class="nav-item nav-link"
+                >HAKKIMIZDA</a
+              >
+            </div>
+            <div class="navbar-nav ml-auto">
+              <div class="nav-item dropdown">
+                <a
+                  href=""
+                  class="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  >GİRİŞ YAP</a
+                >
+                <div class="dropdown-menu">
+                  <a href="login.html" class="dropdown-item">Giriş Yap</a>
+                  <a href="login.html" class="dropdown-item">Kayıt Ol</a>
+                  <a href="admin/dist/index.html" class="dropdown-item"
+                    >Admin Sayfası</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- Nav Bar End -->
+
+    <!-- Bottom Bar Start -->
+    <div class="bottom-bar" style="background-color: #dfd3d3">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-md-3">
+            <div class="logo">
+              <a href="index.html">
+                <img src="img/logo.png" alt="Logo" />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="search">
+              <input type="text" placeholder="Search" />
+              <button><i class="fa fa-search"></i></button>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="user">
+              <a href="wishlist.html" class="btn wishlist">
+                <i class="fa fa-heart"></i>
+                <span>(0)</span>
+              </a>
+              <a href="cart.html" class="btn cart">
+                <i class="fa fa-shopping-cart"></i>
+                <span>(0)</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bottom Bar End -->
+
+    <!-- Cart Start -->
+    <div class="cart-page">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="cart-page-inner">
+              <div class="table-responsive">
+                <table class="table table-bordered">
+                  <thead class="thead-dark">
+                    <tr>
+                      <th>Kitap İsmi</th>
+                      <th>Ücret</th>
+                      <th>Adet</th>
+                      <th>Toplam</th>
+                      <th>Sil</th>
+                    </tr>
+                  </thead>
+                  <tbody class="align-middle">
+                    <tr>
+                      <td>
+                        <div class="img">
+                          <a href="#"
+                            ><img
+                              src="img/romantik/aynalar-koridorunda-ask-12180834-49-K.jpg"
+                              alt="Image"
+                          /></a>
+                          <p>Aynalar Koridorunda Aşk</p>
+                        </div>
+                      </td>
+                      <td>81TL</td>
+                      <td>
+                        <div class="qty">
+                          <button class="btn-minus">
+                            <i class="fa fa-minus"></i>
+                          </button>
+                          <input type="text" value="1" />
+                          <button class="btn-plus">
+                            <i class="fa fa-plus"></i>
+                          </button>
+                        </div>
+                      </td>
+                      <td>81TL</td>
+                      <td>
+                        <button><i class="fa fa-trash"></i></button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="img">
+                          <a href="#"
+                            ><img
+                              src="img/romantik/bir-istanbul-gecesi-ciltli-12731667-56-K.jpg"
+                              alt="Image"
+                          /></a>
+                          <p>bir İstanbul Gecesi</p>
+                        </div>
+                      </td>
+                      <td>99TL</td>
+                      <td>
+                        <div class="qty">
+                          <button class="btn-minus">
+                            <i class="fa fa-minus"></i>
+                          </button>
+                          <input type="text" value="1" />
+                          <button class="btn-plus">
+                            <i class="fa fa-plus"></i>
+                          </button>
+                        </div>
+                      </td>
+                      <td>99TL</td>
+                      <td>
+                        <button><i class="fa fa-trash"></i></button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="img">
+                          <a href="#"
+                            ><img
+                              src="img/romantik/carpe-diem-2-cozum-13445519-83-K.jpg"
+                              alt="Image"
+                          /></a>
+                          <p>Carpe Diem 2</p>
+                        </div>
+                      </td>
+                      <td>107TL</td>
+                      <td>
+                        <div class="qty">
+                          <button class="btn-minus">
+                            <i class="fa fa-minus"></i>
+                          </button>
+                          <input type="text" value="1" />
+                          <button class="btn-plus">
+                            <i class="fa fa-plus"></i>
+                          </button>
+                        </div>
+                      </td>
+                      <td>107TL</td>
+                      <td>
+                        <button><i class="fa fa-trash"></i></button>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td>
+                        <div class="img">
+                          <a href="#"
+                            ><img
+                              src="img/romantik/kutup-yildizi-3-ciltli-12726687-39-K.jpg"
+                              alt="Image"
+                          /></a>
+                          <p>Kutup Yıldızı 3</p>
+                        </div>
+                      </td>
+                      <td>103TL</td>
+                      <td>
+                        <div class="qty">
+                          <button class="btn-minus">
+                            <i class="fa fa-minus"></i>
+                          </button>
+                          <input type="text" value="1" />
+                          <button class="btn-plus">
+                            <i class="fa fa-plus"></i>
+                          </button>
+                        </div>
+                      </td>
+                      <td>103TL</td>
+                      <td>
+                        <button><i class="fa fa-trash"></i></button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="cart-page-inner">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="coupon">
+                    <input type="text" placeholder="Kupon Kodu" />
+                    <button>Kodu Kullan</button>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <div class="cart-summary">
+                    <div class="cart-content">
+                      <h1>Sepet Tutarı</h1>
+                      <p>Ürünlerin Toplamı<span>290TL</span></p>
+                      <p>Kargo Ücreti<span>10TL</span></p>
+                      <h2>Toplam<span>300tl</span></h2>
+                    </div>
+                    <div class="cart-btn">
+                      <button>Sepeti Güncelle</button>
+                      <button>Ödeme Yap</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Cart End -->
+
+    <!-- Footer Start -->
+    <div class="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-md-8">
+            <div class="footer-widget">
+              <h2>İletişim</h2>
+              <div class="contact-info">
+                <p><i class="fa fa-envelope"></i>beyazkitap@info.com</p>
+                <p><i class="fa fa-phone"></i>262 666 41 41</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-8">
+            <div class="footer-widget">
+              <h2>Bizi Takip Et</h2>
+              <div class="contact-info">
+                <div class="social">
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                  <a href=""><i class="fab fa-linkedin-in"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                  <a href=""><i class="fab fa-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-8">
+            <div class="footer-widget">
+              <h2>Tasarlayan</h2>
+              <div class="contact-info">
+                <p>-Mahmut Satici</p>
+                <p>-Bilişim Sistemleri Mühendisliği Öğrencisi</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer End -->
+
+      <!-- Footer Bottom Start -->
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 copyright">
+              <p>
+                Copyright &copy; <a href="https://htmlcodex.com">HTML Codex</a>.
+                All Rights Reserved
+              </p>
+            </div>
+
+            <div class="col-md-6 template-by">
+              <p>Template By <a href="https://htmlcodex.com">HTML Codex</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer Bottom End -->
+
+      <!-- Back to Top -->
+      <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+      <!-- JavaScript Libraries -->
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+      <script src="lib/easing/easing.min.js"></script>
+      <script src="lib/slick/slick.min.js"></script>
+
+      <!-- Template Javascript -->
+      <script src="js/main.js"></script>
+    </div>
+  </body>
+</html>

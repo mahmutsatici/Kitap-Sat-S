@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Beyaz Sayfa Kitabevi</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="eCommerce HTML Template Free Download" name="keywords" />
+    <meta content="eCommerce HTML Template Free Download" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/icon2.png" rel="icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Source+Code+Pro:700,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS Libraries -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link href="lib/slick/slick.css" rel="stylesheet" />
+    <link href="lib/slick/slick-theme.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Nav Bar Start -->
+    <div class="nav">
+      <div class="container-fluid">
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+          <a href="#" class="navbar-brand">MENU</a>
+          <button
+            type="button"
+            class="navbar-toggler"
+            data-toggle="collapse"
+            data-target="#navbarCollapse"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse justify-content-between"
+            id="navbarCollapse"
+          >
+            <div class="navbar-nav mr-auto">
+              <a href="index.html" class="nav-item nav-link">ANASAYFA</a>
+              <div class="nav-item dropdown">
+                <a
+                  href="product-list.html"
+                  class="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  >ÜRÜNLER</a
+                >
+                <div class="dropdown-menu">
+                  <a href="product-list.html" class="dropdown-item"
+                    >TÜM KİTAPLAR</a
+                  >
+                  <a href="product-list.html#klasik" class="dropdown-item"
+                    >KLASİK EDEBİYAT</a
+                  >
+                  <a href="product-list.html#bilim-kurgu" class="dropdown-item"
+                    >BİLİM KURGU</a
+                  >
+                  <a href="product-list.html#tarih" class="dropdown-item"
+                    >TARİH ROMANLARI</a
+                  >
+                  <a href="product-list.html#fantastik" class="dropdown-item"
+                    >FANTASTİK ROMANLAR</a
+                  >
+                  <a href="product-list.html#cocuk" class="dropdown-item"
+                    >ÇOCUK KİTAPLARI</a
+                  >
+                  <a href="product-list.html#romantik" class="dropdown-item"
+                    >ROMANTİK ROMANLAR</a
+                  >
+                </div>
+              </div>
+              <a href="kampanya.html" class="nav-item nav-link">KAMPANYALAR</a>
+              <a href="birimlerimiz.html" class="nav-item active nav-link"
+                >MİSYON ve VİZYON</a
+              >
+
+              <div class="nav-item dropdown">
+                <a
+                  href="birimlerimiz.html"
+                  class="nav-link active dropdown-toggle"
+                  data-toggle="dropdown"
+                  >BİRİMLERİMİZ</a
+                >
+                <div class="dropdown-menu">
+                  <a href="birimlerimiz.html" class="dropdown-item"
+                    >SATIŞ VE MÜŞTERİ HİZMETLERİ</a
+                  >
+                  <a href="birimlerimiz.html" class="dropdown-item"
+                    >DEPOLAMA VE LOJİSTİK</a
+                  >
+                  <a href="birimlerimiz.html" class="dropdown-item"
+                    >EDİTÖRYAL EKİP</a
+                  >
+                </div>
+              </div>
+              <a href="contact.html" class="nav-item nav-link">İLETİŞİM</a>
+              <a href="birimlerimiz.html" class="nav-item active nav-link"
+                >HAKKIMIZDA</a
+              >
+            </div>
+            <div class="navbar-nav ml-auto">
+              <div class="nav-item dropdown">
+                <a
+                  href=""
+                  class="nav-link dropdown-toggle"
+                  data-toggle="dropdown"
+                  >GİRİŞ YAP</a
+                >
+                <div class="dropdown-menu">
+                  <a href="login.html" class="dropdown-item">Giriş Yap</a>
+                  <a href="login.html" class="dropdown-item">Kayıt Ol</a>
+                  <a href="admin/dist/index.html" class="dropdown-item"
+                    >Admin Sayfası</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <!-- Nav Bar End -->
+
+    <!-- Bottom Bar Start -->
+    <div class="bottom-bar" style="background-color: #dfd3d3">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+          <div class="col-md-3">
+            <div class="logo">
+              <a href="index.html">
+                <img src="img/logo.png" alt="Logo" />
+              </a>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="search">
+              <input type="text" placeholder="Search" />
+              <button><i class="fa fa-search"></i></button>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="user">
+              <a href="wishlist.html" class="btn wishlist">
+                <i class="fa fa-heart"></i>
+                <span>(0)</span>
+              </a>
+              <a href="cart.html" class="btn cart">
+                <i class="fa fa-shopping-cart"></i>
+                <span>(0)</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Bottom Bar End -->
+
+    <!-- My Account Start -->
+    <div class="my-account">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-3">
+            <div
+              class="nav flex-column nav-pills"
+              role="tablist"
+              aria-orientation="vertical"
+            >
+              <a
+                class="nav-link active"
+                id="satis-nav"
+                data-toggle="pill"
+                href="#satis-tab"
+                role="tab"
+                ><i class="fa fa-shopping-bag"></i>SATIŞ VE MÜŞTERİ
+                HİZMETLERİ</a
+              >
+
+              <a
+                class="nav-link"
+                id="depolama-nav"
+                data-toggle="pill"
+                href="#depolama-tab"
+                role="tab"
+                ><i class="fa fa-sync"></i>DEPOLAMA VE LOJİSTİK</a
+              >
+              <a
+                class="nav-link"
+                id="edit-nav"
+                data-toggle="pill"
+                href="#edit-tab"
+                role="tab"
+                ><i class="fa fa-edit"></i>EDİTÖRYAL EKİP</a
+              >
+              <a
+                class="nav-link"
+                id="misyon-nav"
+                data-toggle="pill"
+                href="#misyon-tab"
+                role="tab"
+                ><i class="fa fa-clipboard"></i>MİSYON VE VİZYON</a
+              >
+              <a
+                class="nav-link"
+                id="hakkimizda-nav"
+                data-toggle="pill"
+                href="#hakkimizda-tab"
+                role="tab"
+                ><i class="fa fa-atlas"></i>HAKKIMIZDA</a
+              >
+            </div>
+          </div>
+          <div class="col-md-9">
+            <div class="tab-content">
+              <div
+                class="tab-pane fade show active"
+                id="satis-tab"
+                role="tabpanel"
+                aria-labelledby="satis-nav"
+              >
+                <h4>SATIŞ VE MÜŞTERİ HİZMETLERİ</h4>
+                <p>
+                  Kitap dünyasına adım attığınız andan itibaren sizlere eşlik
+                  eden Satış ve Müşteri Hizmetleri birimimiz, sadece kitap
+                  satışı değil, aynı zamanda memnuniyetinizi en üst seviyeye
+                  çıkarmayı hedefler. Her sipariş, bizim için özel bir ilgi ve
+                  özenle işlenir. Sitemizde dolaşırken, bir kitaba dair daha
+                  fazla bilgiye ihtiyaç duyduğunuzda veya bir soru
+                  yaşadığınızda, uzman ekibimiz her zaman yardıma hazır.
+                </p>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="depolama-tab"
+                role="tabpanel"
+                aria-labelledby="depolama-nav"
+              >
+                <h4>DEPOLAMA VE LOJİSTİK</h4>
+                <p>
+                  Kitaplar, özenle seçilmiş ve düzenlenmiş bir depo sistemi
+                  sayesinde sizlere ulaşır. Depolama ve Lojistik birimimiz,
+                  kitapların güvenli bir şekilde depolanmasını ve her siparişin
+                  en kısa sürede doğru adrese ulaştırılmasını sağlamak adına
+                  titizlikle çalışır. Kapsamlı depo yönetimi ve etkili lojistik
+                  çözümleri ile kitaplarınız her zaman istediğiniz yerdedir.
+                </p>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="edit-tab"
+                role="tabpanel"
+                aria-labelledby="edit-nav"
+              >
+                <h4>EDİTÖRYAL EKİP</h4>
+                <p>
+                  Kitapların sihirli dünyasında sizi yönlendirmek ve okuma
+                  deneyiminizi daha da derinleştirmek adına Editöryal Ekibimiz,
+                  her zevke hitap eden içerikler üretir. Yeni çıkan kitap
+                  incelemeleri, yazarlarla yapılan özel röportajlar, editörlerin
+                  seçtikleriyle okuma listelerinizi zenginleştiririz. Editöryal
+                  Ekibimiz, kitaplar aracılığıyla sizi düşündürmeye,
+                  duygulandırmaya ve bilgilendirmeye odaklanır. Her bir birim,
+                  sadece bir hizmeti temsil etmekle kalmaz, aynı zamanda
+                  kitapseverlerle güçlü bir bağ kurmayı amaçlar. Bizimle
+                  birlikte, kitapların büyülü dünyasını keşfetmenin ayrıcalığını
+                  yaşayın.
+                </p>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="hakkimizda-tab"
+                role="tabpanel"
+                aria-labelledby="hakkimizda-nav"
+              >
+                <h4>HAKKIMIZDA</h4>
+                <p>
+                  Beyaz Sayfa Kitabevi, kitaplarla dolu bir dünyanın kapılarını
+                  aralayan bir platformdur. Biz, okuma tutkusunu paylaşan ve
+                  kitapların gücüne inanan bir topluluğuz. Kimiz:
+                  Kitapseverlerin buluşma noktası olan Beyaz Sayfa Kitabevi, her
+                  yaştan, her ilgi alanından insanları bir araya getirir. Biz,
+                  sadece bir kitapevi değil, aynı zamanda bir okuma
+                  topluluğuyuz. Ne Yapıyoruz: Beyaz Sayfa Kitabevi olarak
+                  amacımız, sizlere en iyi okuma deneyimini sunmak. Geniş kitap
+                  koleksiyonumuzda, her türden eseri bulabilir ve kendi
+                  hikayenizi keşfetmek için bir adım atabilirsiniz. Sizin İçin
+                  Varız: İster yeni bir kitapsever olun, ister uzun süredir
+                  süregelen bir okur; Beyaz Sayfa Kitabevi, kitapların büyülü
+                  dünyasında sizinle birlikte yol almak için buradadır. Sizlere
+                  her anlamda eşlik etmek ve okuma serüveninizi daha anlamlı
+                  kılmak için buradayız. Beyaz Sayfa Kitabevi ile keşfe çıkmaya
+                  hazır mısınız? Her sayfa, yeni bir macera demektir!
+                </p>
+              </div>
+              <div
+                class="tab-pane fade"
+                id="misyon-tab"
+                role="tabpanel"
+                aria-labelledby="misyon-nav"
+              >
+                <h4>MİSYON</h4>
+                <p>
+                  Beyaz Sayfa Kitabevi olarak misyonumuz, herkesin yaşamına
+                  dokunan, düşündüren ve duygusal bir bağ kurmasını sağlayan
+                  kitapları sunmak. Kitaplar aracılığıyla okuyucularımıza geniş
+                  bir perspektif sunmayı, bilgiye ulaşmayı ve hayallerine ışık
+                  tutmayı hedefliyoruz. Her kitap, bizim için bir yolculuktur ve
+                  bu yolculukta sizinle birlikte olmak, kitapların sihirli
+                  dünyasını paylaşmak en büyük tutkumuzdur.
+                </p>
+                <h4>VİZYON</h4>
+                <p>
+                  Beyaz Sayfa Kitabevi olarak vizyonumuz, herkesin kitaplarla
+                  dolu bir yaşam sürmesini ve okuma alışkanlıklarını
+                  geliştirmesini teşvik etmektir. Kitapların insanların düşünce
+                  dünyalarını genişletmesine, farklı kültürleri anlamalarına ve
+                  birbirleriyle bağ kurmalarına yardımcı olduğuna inanıyoruz.
+                  Vizyonumuz, Beyaz Sayfa Kitabevi'ni sadece bir kitapevi değil,
+                  aynı zamanda bir okuma topluluğu ve ilham kaynağı haline
+                  getirmektir. Her okurun kendi hikayesini bulduğu, öğrendiği ve
+                  paylaştığı bir kitap evi yaratmak için çaba gösteriyoruz.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- My Account End -->
+
+    <!-- Footer Start -->
+    <div class="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-4 col-md-8">
+            <div class="footer-widget">
+              <h2>İletişim</h2>
+              <div class="contact-info">
+                <p><i class="fa fa-envelope"></i>beyazkitap@info.com</p>
+                <p><i class="fa fa-phone"></i>262 666 41 41</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-8">
+            <div class="footer-widget">
+              <h2>Bizi Takip Et</h2>
+              <div class="contact-info">
+                <div class="social">
+                  <a href=""><i class="fab fa-twitter"></i></a>
+                  <a href=""><i class="fab fa-facebook-f"></i></a>
+                  <a href=""><i class="fab fa-linkedin-in"></i></a>
+                  <a href=""><i class="fab fa-instagram"></i></a>
+                  <a href=""><i class="fab fa-youtube"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-8">
+            <div class="footer-widget">
+              <h2>Tasarlayan</h2>
+              <div class="contact-info">
+                <p>-Mahmut Satici</p>
+                <p>-Bilişim Sistemleri Mühendisliği Öğrencisi</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer End -->
+
+      <!-- Footer Bottom Start -->
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 copyright">
+              <p>
+                Copyright &copy; <a href="https://htmlcodex.com">HTML Codex</a>.
+                All Rights Reserved
+              </p>
+            </div>
+
+            <div class="col-md-6 template-by">
+              <p>Template By <a href="https://htmlcodex.com">HTML Codex</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer Bottom End -->
+
+      <!-- Back to Top -->
+      <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+      <!-- JavaScript Libraries -->
+      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+      <script src="lib/easing/easing.min.js"></script>
+      <script src="lib/slick/slick.min.js"></script>
+
+      <!-- Template Javascript -->
+      <script src="js/main.js"></script>
+    </div>
+  </body>
+</html>
